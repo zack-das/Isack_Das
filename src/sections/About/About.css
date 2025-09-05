@@ -1,0 +1,115 @@
+.about{
+   display: flex; 
+    height: 100vh;
+    padding-top: 98px;
+    background-color: #050a09;
+    position: relative;
+     overflow: hidden;
+    width: 100%;
+    z-index: 1;
+
+}
+/* Cyan blob */
+.about::before {
+  content: "";
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle at center, #00fff2 0%, transparent 70%);
+  opacity: 0.6;
+  filter: blur(120px);
+  top: -150px;
+  left: -150px;
+  animation: blob-move 18s infinite ease-in-out alternate;
+  z-index: 0;
+}
+
+/* Blue blob */
+.about::after {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle at center, rgb(0, 122, 192) 0%, transparent 70%);
+  opacity: 0.5;
+  filter: blur(120px);
+  bottom: -120px;
+  right: -150px;
+  animation: blob-move 22s infinite ease-in-out alternate;
+  animation-delay: 3s;
+  z-index: 0;
+}
+
+/* Green neon blob */
+.about .glow {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle at center, limegreen 0%, transparent 70%);
+  opacity: 0.6;
+  filter: blur(120px);
+  top: 30%;
+  left: 50%;
+  animation: blob-move 20s infinite ease-in-out alternate;
+  animation-delay: 6s;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Lava-like blob movement */
+@keyframes blob-move {
+  0% {
+    transform: translate(0, 0) scale(1);
+    border-radius: 50% 50% 50% 50%;
+  }
+  25% {
+    transform: translate(50px, -40px) scale(1.2);
+    border-radius: 60% 40% 70% 30% / 50% 60% 40% 50%;
+  }
+  50% {
+    transform: translate(-60px, 30px) scale(1.1);
+    border-radius: 40% 60% 30% 70% / 60% 40% 70% 40%;
+  }
+  75% {
+    transform: translate(40px, 60px) scale(1.3);
+    border-radius: 70% 30% 60% 40% / 40% 70% 30% 60%;
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+    border-radius: 50% 50% 50% 50%;
+  }
+}
+
+
+.about-container{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    padding: 50px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-container h1{
+    color: #00fff2;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.about-container p{
+    color: #a4a4a4;
+    font-size: 1rem;
+    width: 60%;
+    line-height: 1.5rem;
+    margin-bottom: 100px;
+    text-align: center;
+    align-self: center;
+}
+.about-container h3{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0;
+}
