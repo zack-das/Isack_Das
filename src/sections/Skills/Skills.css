@@ -1,0 +1,38 @@
+.skills{
+    display: flex; 
+    height: 200px;
+    padding-top: 98px;
+    background-color: #050a09;
+    width: 100%;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.skills-container h3{
+    font-size: 1.2rem;
+    color: rgb(38, 192, 0);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.techstack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.devicon{
+    font-size: 2rem;
+    color: white;
+}
+.devicon:hover{
+    color: rgb(0, 122, 192);
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
