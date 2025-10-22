@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Das</string>
+    <string name="title_activity_main">Das</string>
+    <string name="package_name">das.Xdevs.das</string>
+    <string name="custom_url_scheme">das.Xdevs.das</string>
+</resources>
