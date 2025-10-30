@@ -50,14 +50,14 @@
   filter: blur(120px);
   top: 30%;
   left: 50%;
-  animation: blob-move 20s infinite ease-in-out alternate;
-  animation-delay: 6s;
+ /* animation: blob-move 20s infinite ease-in-out alternate;
+  animation-delay: 6s;*/
   z-index: 0;
   pointer-events: none;
 }
 
 /* Lava-like blob movement */
-@keyframes blob-move {
+/*@keyframes blob-move {
   0% {
     transform: translate(0, 0) scale(1);
     border-radius: 50% 50% 50% 50%;
@@ -78,7 +78,7 @@
     transform: translate(0, 0) scale(1);
     border-radius: 50% 50% 50% 50%;
   }
-}
+}*/
 
 
 .about-container{
