@@ -5,9 +5,9 @@ import './Cert.css';
 function Cert(){
 	return(
 			<>
-				
-
-
+				<div className="certsContainer">
+					
+				</div>
 			</>
 
 		)

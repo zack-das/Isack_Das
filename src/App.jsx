@@ -16,6 +16,7 @@ function App() {
     <About/>
     <Skils/>
     <Projects/>
+    <Cert/>
     <Footer/>
     </>
   );
