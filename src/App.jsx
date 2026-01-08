@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar/Navbar'; 
 import Hero from './sections/Hero/Hero';
 import About from  './sections/About/About';
+import Cert from './sections/Cert/Cert';
 import Skils from './sections/Skills/Skils';
 import Projects from './sections/Projects/Projects';
 import Footer from './components/Footer/Footer';
