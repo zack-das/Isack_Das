@@ -1,0 +1,40 @@
+.cardsOverlay {
+  position: relative;
+  width: 100%;
+  height: 180px;      /* overlay height */
+  background-color: black;
+  z-index: 2;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.certs-container {
+  position: relative;
+  display: flex;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top: 4px solid  rgb(0, 122, 192);
+  align-items: center;
+  width: 100%;
+  height: 340px;
+  background-color: #a4a4a4;
+  margin-top: -330px;  /* pull it up halfway under overlay */
+  z-index: 1;
+}
+
+.cert{
+	width: 300px;
+	height: 200px;
+	margin-bottom: 100px;
+	margin-left: 6px;
+}
+.cert img{
+	width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+.cert img:hover{
+	transform: translateY(-40px);
+    cursor: pointer;
+}
