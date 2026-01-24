@@ -5,6 +5,7 @@ import certificateImage from "../../assets/Responnsivewebdesigncertificate.png";
 function Cert() {
   return (
     <>
+    <div className="headingBox"><h1 className="certHead">My Certifications</h1></div>
     	<div className="cardsOverlay"></div>
     	 <div className="certs-container">
     	 	<div className="cert">
