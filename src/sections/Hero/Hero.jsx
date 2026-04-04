@@ -20,10 +20,10 @@ import { MdOutlineMailOutline } from "react-icons/md";
                     </div>
                     <div className="profilePic"></div>
                     <ul className="socialIcons">
-                        <li><a href=""><FaGithub /></a></li>
-                        <li><a href=""><FaLinkedin /></a></li>
-                        <li><a href=""><FaSquareXTwitter /></a></li>
-                        <li><a href=""><MdOutlineMailOutline /></a></li>
+                        <li><a href="https://github.com/zack-das"><FaGithub /></a></li>
+                        <li><a href="www.linkedin.com/in/izack-das-6172953b3"><FaLinkedin /></a></li>
+                        <li><a href="#"><FaSquareXTwitter /></a></li>
+                        <li><a href="mailto:isackdas@gmail.com"><MdOutlineMailOutline /></a></li>
                     </ul>
                     <div className="scrollDown"></div>
                 </div>    
