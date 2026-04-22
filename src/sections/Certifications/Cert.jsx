@@ -1,6 +1,8 @@
 import React from 'react';
 import './Cert.css'
 import certificateImage from "../../assets/Responnsivewebdesigncertificate.png";
+import  NetworkCert from "../../assets/NetworkEngineering.png";
+
 
 function Cert() {
   return (
@@ -11,6 +13,9 @@ function Cert() {
     	 	<div className="cert">
     	 		<a href="https://www.freecodecamp.org/certification/techiedas/responsive-web-design-v9"><img src={certificateImage} alt="CertificateImage"/></a>
     	 	</div>
+        <div className="cert">
+          <a href="https://simpli-web.app.link/e/SZgvZyS2x2b"><img src={NetworkCert} alt="CertificateImage"/></a>
+        </div>
     	 </div>
     </>
   );
