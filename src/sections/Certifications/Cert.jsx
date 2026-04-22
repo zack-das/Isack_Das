@@ -11,10 +11,12 @@ function Cert() {
     	<div className="cardsOverlay"></div>
     	 <div className="certs-container">
     	 	<div className="cert">
-    	 		<a href="https://www.freecodecamp.org/certification/techiedas/responsive-web-design-v9"><img src={certificateImage} alt="CertificateImage"/></a>
+    	 		<a href="https://www.freecodecamp.org/certification/techiedas/responsive-web-design-v9" target="_blank" 
+  rel="noopener noreferrer"><img src={certificateImage} alt="CertificateImage"/></a>
     	 	</div>
         <div className="cert">
-          <a href="https://simpli-web.app.link/e/SZgvZyS2x2b"><img src={NetworkCert} alt="CertificateImage"/></a>
+          <a href="https://simpli-web.app.link/e/SZgvZyS2x2b" target="_blank" 
+  rel="noopener noreferrer"><img src={NetworkCert} alt="CertificateImage"/></a>
         </div>
     	 </div>
     </>

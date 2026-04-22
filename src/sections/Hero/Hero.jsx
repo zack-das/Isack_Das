@@ -15,7 +15,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
                     <div className="heroContent">
                     <h3>Hello, my name is</h3>
                     <h1>Isack Das.</h1>
-                    <h2>A fullstack Software Developer.</h2>
+                    <h2>A fullstack Software Developer,<br/>UI/UX Designer,Graphic Designer & Network Engineer.</h2>
                     <p>Currently focused on building responsive web applications.</p>
                     </div>
                     <div className="profilePic"></div>
