@@ -5,6 +5,7 @@ import  NetworkCert from "../../assets/NetworkEngineering.png";
 
 
 function Cert() {
+  // const Certs = []
   return (
     <>
     <div className="headingBox"><h1 className="certHead">My Certifications</h1></div>
