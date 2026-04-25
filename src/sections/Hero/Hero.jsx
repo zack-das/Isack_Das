@@ -12,13 +12,19 @@ import { MdOutlineMailOutline } from "react-icons/md";
         <>
             <section id="hero" className="hero">
                 <div className="heroContainer">
-                    <div className="heroContent">
+                    <div className="mainHero">
+                        <div className="heroBox">
+                        <div className="heroContent">
                     <h3>Hello, my name is</h3>
                     <h1>Isack Das.</h1>
                     <h2>A fullstack Software Developer,<br/>UI/UX Designer,Graphic Designer & Network Engineer.</h2>
                     <p>Currently focused on building responsive web applications.</p>
                     </div>
-                    <div className="profilePic"></div>
+                    </div>
+                    <div className="profilePic">
+                        
+                    </div>
+                    </div>
                     <ul className="socialIcons">
                         <li><a href="https://github.com/zack-das"><FaGithub /></a></li>
                         <li><a href="www.linkedin.com/in/izack-das-6172953b3"><FaLinkedin /></a></li>
