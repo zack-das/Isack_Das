@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { MdOutlineMailOutline } from "react-icons/md";   
+import { MdOutlineMailOutline, MdWhatsapp } from "react-icons/md";   
 
 
  function Hero() {
@@ -30,6 +30,11 @@ import { MdOutlineMailOutline } from "react-icons/md";
                         <li><a href="www.linkedin.com/in/izack-das-6172953b3"><FaLinkedin /></a></li>
                         <li><a href="#"><FaSquareXTwitter /></a></li>
                         <li><a href="mailto:isackdas@gmail.com"><MdOutlineMailOutline /></a></li>
+                        <li>
+                         <a href="https://wa.me/+254711295049" target="_blank" rel="noopener noreferrer">
+                           <MdWhatsapp />
+                         </a>
+                       </li>
                     </ul>
                     <div className="scrollDown"></div>
                 </div>    
